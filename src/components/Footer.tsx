@@ -9,21 +9,21 @@ export const Footer: React.FC = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2 mb-4">
           <img src="/src/images/tec.png" alt="Logo" className="h-12 drop-shadow-lg" />
-          <span className="text-xl font-bold text-green-400">Tocantinólis EC</span>
+          <span className="text-xl font-bold text-green-400">Tocantinópolis EC</span>
         </div>
 
         {/* Redes Sociais */}
         <div className="flex space-x-6 mb-4">
-          <a href="#" className="text-green-400 text-2xl hover:text-white transition duration-300">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@TECTVtocantinopolisec" className="text-green-400 text-2xl hover:text-white transition duration-300">
             <FaYoutube />
           </a>
-          <a href="#" className="text-green-400 text-2xl hover:text-white transition duration-300">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tocantinopolis.ec/" className="text-green-400 text-2xl hover:text-white transition duration-300">
             <FaInstagram />
           </a>
-          <a href="#" className="text-green-400 text-2xl hover:text-white transition duration-300">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@tocantinopolis_ec" className="text-green-400 text-2xl hover:text-white transition duration-300">
             <FaTiktok />
           </a>
-          <a href="#" className="text-green-400 text-2xl hover:text-white transition duration-300">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/p/Tocantin%C3%B3polis-Esporte-Clube-100066846137478/?_rdr" className="text-green-400 text-2xl hover:text-white transition duration-300">
             <FaFacebook />
           </a>
         </div>
