@@ -1,5 +1,8 @@
 {
   "files": [],
+  "dependencies": {
+    "@react-google-maps/api": "^2.1.2",
+  },
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
