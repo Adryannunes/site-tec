@@ -1,5 +1,6 @@
 import React from "react";
 import { FaYoutube, FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
+import logoTec from "../images/tec.png"; 
 
 export const Footer: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ export const Footer: React.FC = () => {
         
         {/* Logo */}
         <div className="flex items-center space-x-2 mb-4">
-          <img src="/src/images/tec.png" alt="Logo" className="h-12 drop-shadow-lg" />
+          <img src={logoTec} alt="Logo" className="h-12 drop-shadow-lg" />
           <span className="text-xl font-bold text-green-400">Tocantinópolis EC</span>
         </div>
 

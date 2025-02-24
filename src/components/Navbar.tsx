@@ -79,12 +79,12 @@ export const Navbar: React.FC = () => {
           </button>
           <nav className="flex flex-col space-y-6 text-2xl font-medium ">
             <a href="#elenco" className="hover:text-green-400 transition duration-300 ">Elenco</a>
-            <a href="#" className="hover:text-green-400 transition duration-300">História</a> {/* Novo link no mobile */}
+            <a href="https://pt.wikipedia.org/wiki/Tocantin%C3%B3polis_Esporte_Clube" className="hover:text-green-400 transition duration-300">História</a> {/* Novo link no mobile */}
             <a className="hover:text-green-400 transition duration-300">
-  <Link to="/transparencia">Transparência</Link>
-</a>
-            <a href="#" className="hover:text-green-400 transition duration-300">Loja</a>
-            <a href="#" className="hover:text-green-400 transition duration-300">Notícias</a>
+            <Link to="/transparencia">Transparência</Link>
+            </a>
+            <a href="https://www.lojadoclube.com.br/tocantinopolis" className="hover:text-green-400 transition duration-300">Loja</a>
+            <a href="https://ge.globo.com/to/futebol/times/tocantinopolis/" className="hover:text-green-400 transition duration-300">Notícias</a>
             <button 
               className="bg-green-500 px-6 py-3 rounded-lg hover:bg-green-600 transition duration-300 shadow-md shadow-green-400/50"
               onClick={() => {
