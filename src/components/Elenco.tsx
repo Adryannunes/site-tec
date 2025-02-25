@@ -55,7 +55,7 @@ export const Elenco: React.FC = () => {
   return (
     <div
       id="elenco"
-      className="w-full flex flex-col items-center justify-center bg-black text-white font-poppins px-4 pt-0"
+      className="w-full flex flex-col items-center justify-center bg-black text-white font-poppins px-4 pt-7"
     >
       {/* Título */}
       <h2 className="text-4xl md:text-7xl font-extrabold text-green-400 text-center font-bebas mb-6">

@@ -14,10 +14,10 @@ const imagensTitulos = [titulo1, titulo2, titulo3, titulo4, titulo5];
 
 export const Inicio: React.FC = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-start bg-black text-white font-poppins px-4 pt-10">
+    <div className="w-full md:min-h-screen flex flex-col items-center justify-start bg-black text-white font-poppins px-4 pt-5">
       
       {/* Título de boas-vindas */}
-      <h1 className="text-xl md:text-8xl font-extrabold text-green-400 text-center leading-tight font-bebas">
+      <h1 className="text-4xl md:text-8xl font-extrabold text-green-400 text-center leading-tight font-bebas">
        O Maior Time do Tocantins
       </h1>
 
@@ -28,7 +28,7 @@ export const Inicio: React.FC = () => {
       </p>
 
       {/* Carrossel de títulos */}
-      <div className="w-full max-w-[1750px] mt-2">
+      <div className="w-full max-w-[1750px] mt-1">
   <Swiper
     modules={[Pagination, Navigation, Autoplay]}
     spaceBetween={15}
