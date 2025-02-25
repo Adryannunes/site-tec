@@ -35,7 +35,7 @@ Com a divulgação deste relatório, reafirmamos nosso compromisso com a excelê
             <li className="flex items-center justify-between border border-green-400 p-4 rounded-lg">
               <span>1º Semestre (Dezembro/2024)</span>
               <a
-                href="/pdf/relatorio-marco-2024.pdf"
+                href="/pdf/Equipe_Branca_Atualizada.pdf"
                 download
                 className="text-green-400 hover:underline"
               >
