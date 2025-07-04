@@ -29,13 +29,13 @@ const Transparencia: React.FC = () => {
           </h2>
           <ul className="space-y-4">
             <li className="flex items-center justify-between border border-green-400 p-4 rounded-lg">
-              <span>Demostrações contábeis 2022 e 2023</span>
+              <span>Demostrações contábeis 2022/2023: </span>
               <a
-                href="/pdf/Relatorio_TOCANTINOPOLIS_ESPORTE_CLUBE_2023_assinado_assinado.pdf"
+                href="/public/pdf/Relatorio_TOCANTINOPOLIS_ESPORTE_CLUBE_2023_assinado_assinado.pdf"
                 download
                 className="text-green-400 hover:underline"
               >
-                Download
+                Baixar PDF
               </a>
             </li>
           </ul>
