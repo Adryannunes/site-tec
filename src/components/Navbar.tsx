@@ -44,11 +44,12 @@ export const Navbar: React.FC = () => {
       </button>
 
       {/* Links centrais - Desktop */}
-      <div className="hidden md:flex space-x-10 text-xl font-medium ml-[-150px]"> {/* Ajustado para mover os links mais à esquerda */}
-        <a href="#elenco" className="hover:text-green-400 transition duration-300">Elenco</a>
+      <div className="hidden md:flex space-x-8 text-xl font-medium ml-[-150px]"> {/* Ajustado para mover os links mais à esquerda */}
+    
+        <a href="" className="hover:text-green-400 transition duration-300">Elenco</a>
         <a className="hover:text-green-400 transition duration-300">
-  <Link to="/transparencia">Transparência</Link>
-</a>
+        <Link to="/transparencia">Transparência</Link>
+        </a>
         <a href="https://www.lojadoclube.com.br/tocantinopolis" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition duration-300">Loja</a>
         <a href="https://pt.wikipedia.org/wiki/Tocantin%C3%B3polis_Esporte_Clube" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition duration-300">
         História
@@ -78,7 +79,9 @@ export const Navbar: React.FC = () => {
             <FaTimes />
           </button>
           <nav className="flex flex-col space-y-6 text-2xl font-medium ">
-            <a href="#elenco" className="hover:text-green-400 transition duration-300 ">Elenco</a>
+            <a href="" className="hover:text-green-400 transition duration-300 ">Elenco</a>
+            <a href="" className="hover:text-green-400 transition duration-300">Sócio Torcedor</a>
+            <a href="" className="hover:text-green-400 transition duration-300">Ingressos</a>
             <a href="https://pt.wikipedia.org/wiki/Tocantin%C3%B3polis_Esporte_Clube" className="hover:text-green-400 transition duration-300">História</a> {/* Novo link no mobile */}
             <a className="hover:text-green-400 transition duration-300">
             <Link to="/transparencia">Transparência</Link>
@@ -139,7 +142,7 @@ export const Navbar: React.FC = () => {
           {/* Link para cadastro */}
           <p className="text-sm text-gray-400 mt-3 text-center">
             Não tem uma conta?{" "}
-            <a href="#" className="text-green-400 hover:underline">Cadastre-se</a>
+            <a href="" className="text-green-400 hover:underline">Cadastre-se</a>
           </p>
         </div>
       )}

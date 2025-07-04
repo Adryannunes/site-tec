@@ -35,20 +35,19 @@ const meias = [
   "https://tvjaguarnews.com.br/uploads/images/2023/04/image_750x_644098d45596a.jpg",
   "https://tvjaguarnews.com.br/uploads/images/2023/04/image_750x_644098d45596a.jpg",
   "https://tvjaguarnews.com.br/uploads/images/2023/04/image_750x_644098d45596a.jpg",
-"https://tvjaguarnews.com.br/uploads/images/2023/04/image_750x_644098d45596a.jpg",
-"https://tvjaguarnews.com.br/uploads/images/2023/04/image_750x_644098d45596a.jpg",
+  "https://tvjaguarnews.com.br/uploads/images/2023/04/image_750x_644098d45596a.jpg",
+  "https://tvjaguarnews.com.br/uploads/images/2023/04/image_750x_644098d45596a.jpg",
 ];
 
 const atacantes = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Qr6sWwa3cxrO55uaBaBEFqVTT7hrUv3N2g&s",
   "https://tvjaguarnews.com.br/uploads/images/2023/04/image_750x_644098d45596a.jpg",
- "https://www.folhadobico.com.br/wp-content/arquivo/2024/12/alan-maia.jpg",
- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
- 
+  "https://www.folhadobico.com.br/wp-content/arquivo/2024/12/alan-maia.jpg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67DmNSougAxKLTCp5JuE4Cv5spUQNt0igIg&s",
 ];
 
 export const Elenco: React.FC = () => {
@@ -82,8 +81,7 @@ export const Elenco: React.FC = () => {
               <img
                 src={img}
                 alt={`Goleiro ${index + 1}`}
-                className="w-45 h-45 md:w-48 md:h-48 object-cover rounded-full border-4 border-neon-green shadow-lg"
-              />
+                className="w-45 h-45 md:w-48 md:h-48 object-cover rounded-full border-4 border-neon-green shadow-lg"/>
             </SwiperSlide>
           ))}
         </Swiper>

@@ -36,8 +36,7 @@ export const Inicio: React.FC = () => {
     pagination={{ clickable: true }}
     navigation
     autoplay={{ delay: 3000, disableOnInteraction: false }}
-    className="rounded-lg"
-  >
+    className="rounded-lg">
     {imagensTitulos.map((img, index) => (
       <SwiperSlide key={index}>
         <div className="relative w-full overflow-hidden rounded-lg shadow-lg aspect-[18/7]">
@@ -51,7 +50,6 @@ export const Inicio: React.FC = () => {
     ))}
   </Swiper>
 </div>
-
-    </div>
+</div>
   );
 };
