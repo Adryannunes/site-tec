@@ -31,7 +31,7 @@ const Transparencia: React.FC = () => {
             <li className="flex items-center justify-between border border-green-400 p-4 rounded-lg">
               <span>Demostrações contábeis 2022/2023: </span>
               <a
-                href="/public/pdf/Relatorio_TOCANTINOPOLIS_ESPORTE_CLUBE_2023_assinado_assinado.pdf"
+                href="/public/pdf/relatorio-tec-2023.pdf"
                 download
                 className="text-green-400 hover:underline"
               >
