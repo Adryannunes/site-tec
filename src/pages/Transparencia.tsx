@@ -31,10 +31,9 @@ const Transparencia: React.FC = () => {
             <li className="flex items-center justify-between border border-green-400 p-4 rounded-lg">
               <span>Demostrações contábeis 2023/2024: </span>
               <a
-                href="/pdf/relatorio-tec23_24.pdf"
+                href="/pdf/relatorio-tec23-24.pdf"
                 download
-                className="text-green-400 hover:underline"
-              >
+                className="text-green-400 hover:underline">
                 Baixar PDF
               </a>
             </li>
